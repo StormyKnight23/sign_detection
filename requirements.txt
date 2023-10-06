@@ -1,0 +1,6 @@
+ffmpeg==1.4
+moviepy==1.0.3
+streamlit-webrtc==0.47.0
+ultralytics==8.0.181
+twilio==8.8.0
+opencv-python-headless
