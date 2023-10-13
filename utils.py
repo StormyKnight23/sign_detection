@@ -40,7 +40,7 @@ class MyVideoTransformer(VideoTransformerBase):
 
     def _display_detected_frames(self, image):
         orig_h, orig_w = image.shape[0:2]
-        width = 480  # Set the desired width for processing
+        width = 240  # Set the desired width for processing
 
         # cv2.resize used in a forked thread may cause memory leaks
         input = np.asarray(Image.fromarray(image).resize((width, int(width * orig_h / orig_w))))
