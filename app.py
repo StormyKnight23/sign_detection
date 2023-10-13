@@ -50,7 +50,7 @@ def get_predictions(source_path):
 
 
 #web application
-st.title("American Sign Language Detection")
+st.title("Filipino Sign Language Detection")
 
 #set an image
 st.image(IMAGE_ADDRESS , caption = "Sign Language Detection")
